@@ -1,0 +1,16 @@
+.tv-actor__card {
+    width: 130px;
+    height: 180px;
+    margin: 10px;
+    box-shadow: 5px 5px 5px 5px rgba(43, 6, 209, 0.3);
+}
+.tv-actor__img {
+    padding: 10px;
+    margin: 0 auto;
+    width: 100px;
+    height: 140px;
+    object-fit: cover;
+}
+.tv-name {
+    text-align: center;
+}

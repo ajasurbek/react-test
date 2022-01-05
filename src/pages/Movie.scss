@@ -1,0 +1,38 @@
+.movies__list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    flex-grow: 1;
+}
+.actors__list {
+    width: 1120px;
+    height: 250px;
+    display: flex;
+    overflow: auto;
+}
+::-webkit-scrollbar {
+    width: 15px;
+  }
+::-webkit-scrollbar-track {
+    background: rgb(250, 250, 250); 
+  }
+   
+   ::-webkit-scrollbar-thumb {
+    background: blue; 
+  }
+ 
+  ::-webkit-scrollbar-thumb:hover {
+    background: rgba(0, 0, 255, 0.6); 
+  }
+.recommend {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+@media only screen and (max-width: 675px) {
+    .movies__list {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+}
